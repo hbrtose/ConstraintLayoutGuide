@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Layout" android:id="@+id/layout" android:icon="@android:drawable/ic_menu_gallery"/>
+    <item android:title="Practice" android:id="@+id/practice" android:icon="@android:drawable/ic_menu_preferences"/>
+    <item android:title="Task" android:id="@+id/task" android:icon="@android:drawable/ic_menu_edit"/>
+    <item android:title="Recycler" android:id="@+id/recycler" android:icon="@android:drawable/ic_menu_sort_by_size"/>
+</menu>

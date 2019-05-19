@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/main_navigation"
+            app:startDestination="@id/layout">
+    <fragment
+            android:id="@+id/layout"
+            android:name="com.hubose.constraintlayoutguide.LayoutFragment"
+            android:label="Layout"
+            tools:layout="@layout/layout_fragment"
+    />
+    <fragment
+            android:id="@+id/practice"
+            android:name="com.hubose.constraintlayoutguide.PracticeFragment"
+            android:label="Practice"
+            tools:layout="@layout/practice_fragment"
+    />
+    <fragment
+            android:id="@+id/task"
+            android:name="com.hubose.constraintlayoutguide.TaskFragment"
+            android:label="Task"
+            tools:layout="@layout/task_fragment"
+    />
+    <fragment
+            android:id="@+id/recycler"
+            android:name="com.hubose.constraintlayoutguide.RecyclerFragment"
+            android:label="Recycler"
+            tools:layout="@layout/recycler_fragment"
+    />
+</navigation>
