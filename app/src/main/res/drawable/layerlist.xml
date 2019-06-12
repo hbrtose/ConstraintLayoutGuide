@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:drawable="@drawable/ic_baseline_work_24px"
+            android:id="@+id/work"/>
+
+    <item
+            android:drawable="@drawable/ic_baseline_done_24px"
+            android:top="10dp"
+            android:id="@+id/done"/>
+
+</layer-list>
